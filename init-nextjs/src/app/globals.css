@@ -121,3 +121,16 @@
     text-wrap: pretty;
   }
 }
+
+@layer components{
+  .card{
+    @apply bg-card text-card-foreground shadow-md rounded-lg p-6;
+  }
+}
+
+
+@layer utilities {
+  .spacer{
+    height: 3rem;
+  }
+}
