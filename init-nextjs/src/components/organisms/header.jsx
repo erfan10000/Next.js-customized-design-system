@@ -10,7 +10,7 @@ export default function Header(){
                 </div>
                 <span className="text-lg font-semibold">Next.js Design System</span>
                 <div className="grow"></div>
-                <div className="flex  me-2 h-8 items-center justify-center rounded-md bg-primary-foreground border-1 border-b-3 text-primary-foreground mr-3">
+                <div className="flex  me-2 h-8 items-center justify-center rounded-md bg-primary-foreground dark:bg-background border-1 border-b-3 text-primary-foreground mr-3">
                     <SearchInput/>
                 </div>
                 <div className="flex  me-2 h-8 w-8 items-center justify-center rounded-md text-primary-foreground">

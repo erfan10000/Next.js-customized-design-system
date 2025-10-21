@@ -6,6 +6,8 @@
   --white: white;
   --background: oklch(0.98 0 0);
   --foreground: oklch(0.15 0 0);
+  --foreground-hover: oklch(9.693% 0.00001 271.152 / 0.691);
+  --background-hover: oklch(94.912% 0.00011 271.152 / 0.832);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.15 0 0);
   --popover: oklch(1 0 0);
@@ -48,6 +50,8 @@
   --font-mono: var(--font-geist-mono);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-foreground-hover: var(--foreground-hover);
+  --color-background-hover: var(--background-hover);
   --color-card: var(--card);
   --color-card-foreground: var(--card-foreground);
   --color-popover: var(--popover);

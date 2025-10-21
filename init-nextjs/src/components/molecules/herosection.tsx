@@ -8,7 +8,7 @@ export function HeroSection() {
       <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-muted/20" />
       <div className="relative px-6 py-24">
         <div className="mx-auto max-w-4xl text-center">
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-muted/50 px-4 py-2 text-sm text-muted-foreground">
+          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-muted/50 px-4 py-2 text-sm text-muted-foreground dark:text-accent dark:bg-accent-foreground">
             <LuSparkles className="h-4 w-4" />
             <span>Modern Design System</span>
           </div>

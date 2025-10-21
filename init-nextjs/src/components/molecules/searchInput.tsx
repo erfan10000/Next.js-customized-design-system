@@ -35,7 +35,7 @@ export function SearchInput ({
                 size="full"
             />
             <InitButton
-                className={clsx("rounded-l-none dark:text-white", {"rounded-md!": isHidden})}
+                className={clsx("rounded-l-none dark:text-white dark:bg-background", {"rounded-md!": isHidden})}
                 onClick={searchBtnClicked}
                 type="outline"
                 size="medium"
