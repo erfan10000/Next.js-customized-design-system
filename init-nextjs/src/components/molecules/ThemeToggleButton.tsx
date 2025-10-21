@@ -10,7 +10,7 @@ export function ThemeToggleButton() {
      <InitButton
       onClick={toggleTheme}
       type="outline"
-      className="bg-transparent border border-white text-white h-9"
+      className="bg-transparent border hover:bg-accent dark:border-white dark:text-white h-8"
     >
       <MdOutlineNightsStay />
     </InitButton>

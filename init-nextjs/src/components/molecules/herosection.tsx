@@ -26,11 +26,11 @@ export function HeroSection() {
           </p>
 
           <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
-            <InitButton size="full" className="gap-2">
+            <InitButton size="full" className="gap-2 max-w-70">
               Get Started
               <FaLongArrowAltRight className="h-4 w-4" />
             </InitButton>
-            <InitButton type="outline" size="full">
+            <InitButton type="outline" size="full" className="max-w-70">
               View Components
             </InitButton>
           </div>

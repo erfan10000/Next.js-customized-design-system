@@ -3,6 +3,7 @@
 
 :root {
   /* Converting to light mode with sophisticated color palette */
+  --white: white;
   --background: oklch(0.98 0 0);
   --foreground: oklch(0.15 0 0);
   --card: oklch(1 0 0);
@@ -64,6 +65,7 @@
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
+  --color-white: var(--white);
   /* Adding brand accent color to theme */
   --color-brand-accent: var(--brand-accent);
   --color-chart-1: var(--chart-1);

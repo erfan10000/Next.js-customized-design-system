@@ -2,14 +2,11 @@
 
 .searchInput{
     display: flex;
-
     input{
         height: 30px;
     }
 }
 
 .input-hidden{
-    width: 0%;
-    opacity: 0;
     transition-duration: 0.3s;
 }

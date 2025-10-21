@@ -9,9 +9,11 @@
 
 .home{
     margin-left: 280px;
+    background-image: linear-gradient(#00000008 1px, #0000 1px), linear-gradient(90deg, #00000008 1px, #0000 1px);
+    background-size: 32px 32px;
 }
 
 .description{
     height: 25rem;
-    background-color: #d0e2ff;
+    // background-color: #d0e2ff;
 }

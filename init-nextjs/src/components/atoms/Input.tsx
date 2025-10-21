@@ -22,7 +22,7 @@ export function InitInput({
     value,
     size = "medium",
 }: InputProps) {
-    const baseStyle = 'focus:ring-white p-2 rounded-md flex items-center justify-center text-sm transition-all duration-3 cursor-text disabled:cursor-not-allowed border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white';
+    const baseStyle = 'focus:ring-white p-2 rounded-md flex items-center justify-center text-sm transition-all duration-3 cursor-text disabled:cursor-not-allowed border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-800 dark:border-gray-600 placeholder-foreground dark:placeholder-gray-400 dark:text-white';
     const inputSize = {
         full: 'w-full',
         medium: 'w-auto',

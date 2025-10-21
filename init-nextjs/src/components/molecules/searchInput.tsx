@@ -18,7 +18,7 @@ export function SearchInput ({
     value,
 }: SearchInputProps) {
     
-    const [isHidden, setIsHidden] = useState(true);
+    const [isHidden] = useState(true);
 
     const searchBtnClicked = () => {
         // setIsHidden (prev => !prev);
@@ -27,15 +27,15 @@ export function SearchInput ({
     return (
         <div className={`${styles.searchInput} flex`}>
             <InitInput
-                className={clsx("rounded-r-none placeholder-gray-500 text-gray-600 placeholder-text-sm! bg-background ", {[styles["input-hidden"]]: isHidden} )}
+                className={clsx("rounded-r-none placeholder-gray-500 text-gray-600 placeholder-text-sm! border-0 focus:border-r-0 dark:bg-background ", {[styles["input-hidden"]]: isHidden} )}
                 onChange={onChange}
                 placeholder="Search..."
                 type="text"
                 value={value}
-                size="medium"
+                size="full"
             />
             <InitButton
-                className={clsx("rounded-l-none text-white", {"rounded-md!": isHidden})}
+                className={clsx("rounded-l-none dark:text-white", {"rounded-md!": isHidden})}
                 onClick={searchBtnClicked}
                 type="outline"
                 size="medium"
